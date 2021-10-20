@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Nav from './components/nav/nav.js'
+import Section1 from './components/section-1/section-1.js'
+import Section2 from './components/section-2/section-2.js'
+import Section3 from './components/section-3/section-3.js'
+import Section4 from './components/section-4/section-4.js'
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div id='top'></div>
+    <Nav />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+

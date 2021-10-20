@@ -1,0 +1,15 @@
+#section-2 h1 {
+    color: white;
+}
+
+#section-2 h4 {
+    color: white;
+}
+
+#section-2 {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #FF5A63 0%, #872DEB 50%, #872DEB 100%);
+    position: relative;
+}
+
