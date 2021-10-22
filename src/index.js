@@ -5,6 +5,7 @@ import Section1 from './components/section-1/section-1.js'
 import Section2 from './components/section-2/section-2.js'
 import Section3 from './components/section-3/section-3.js'
 import Section4 from './components/section-4/section-4.js'
+import Footer from './components/footer/footer.js'
 import './index.css';
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
       <Section2 />
       <Section3 />
       <Section4 />
+      <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

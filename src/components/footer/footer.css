@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.brand {
+    font-size: 75px;
+    font-family: 'Yellowtail', cursive;
+    color: #F2A03F;
+}
+
+.download-tag {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 50px;
+}
+
+#footer {
+    height: 500px;
+    background: black;
+    z-index: 1000;
+    position: relative;
+    text-align: center;
+    padding: 75px 0px;
+    height: auto;
+}
+
+.store-button-footer {
+    border: 1px solid white;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    margin: 0px 20px;
+}
+
+.store-wrapper-footer {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: inline;
+}
+
+@media screen and (max-width: 980px) {
+.store-button-footer {
+    margin: 20px;
+    width: 150px;
+}
+}

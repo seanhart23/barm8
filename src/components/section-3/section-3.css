@@ -13,7 +13,14 @@
     background: linear-gradient(135deg, #FFD34B 0%, #FF2369 50%, #FF2369 100%);
 }
 
-#image3 {
-    z-index: 4;
-    height: 0;
+@media screen and (max-width: 980px) {
+
+    #section-3{
+        padding: 25px;
+        height: auto!important;
+    }
+
+    #section-3 .left {
+        padding-top: 50px;
+    }
 }

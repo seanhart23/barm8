@@ -13,3 +13,14 @@
     position: relative;
 }
 
+@media screen and (max-width: 980px) {
+
+    #section-2{
+        padding: 25px;
+        height: auto!important;
+    }
+
+    #section-2 .left {
+        padding-top: 50px;
+    }
+}

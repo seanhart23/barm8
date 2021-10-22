@@ -6,14 +6,14 @@ function Section3() {
         <div id='section-3'>
             <div class='container'>
                 <div class='row'>
-                    <div class='col-7'>
+                    <div class='col-lg-7'>
                         <div class='left'>
                             <h1>Score food and drink deals from our local bars and pubs.</h1>
                             <h4>Exclusive food and drink offers from our local venues? We'll drink to that. Just show your BarM8 coupon at the counter and we'll keep the good times coming.</h4>
                         </div>                       
                     </div>
-                    <div class='col-5'>
-                        {/* <Phone src='./image3.png' id='image3'/> */}
+                    <div class='col-lg-5'>
+                        <Phone src='./image3.png' id='image3'/>
                     </div>
                 </div>
             </div>

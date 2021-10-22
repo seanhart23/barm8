@@ -31,12 +31,29 @@ h4 {
 }
 
 #image1 {
-  z-index: 3;
+  z-index: 100000;
   height: 100%;
 }
 
 #image2 {
     z-index: 3;
-    padding-top: 200%;
-    /* height: 0; */
+    position: absolute;
+}
+
+#image3 {
+    z-index: 3;
+    position: absolute;
+}
+
+#image4 {
+    z-index: 3;
+    position: absolute;
+}
+
+@media screen and (max-width: 980px) {
+
+ h1 {
+    font-size: 40px;
+  }
+
 }
