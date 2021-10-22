@@ -82,6 +82,15 @@ nav {
         transition: all .5s ease-in-out;
     }
 
+    .navbar-nav-alt {
+        margin-right: 0px!important;
+        transition: all .5s ease-in-out;
+    }
+
+    .nav-link-alt {
+        color: #F2A03F!important;
+        transition: all .5s ease-in-out;
+    }
     .nav-item {
         background: black;
         color: white;
