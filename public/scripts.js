@@ -26,14 +26,14 @@ function setPhone(){
     divisor2.style.height = "0%";
 
     if(scroll > 0 && scroll < s2){
-        divisor.style.height = ((((scroll + 13)/bottom)*100)) + "%";
+        divisor.style.height = ((((scroll)/bottom)*100)) + "%";
         divisor1.style.height = "0%";
     } else if(scroll > s2 && scroll < s3) {
         divisor.style.height = "100%";
-        divisor1.style.height = ((((scroll - s2 + 13)/bottom)*100)) + "%";
+        divisor1.style.height = ((((scroll - s2)/bottom)*100)) + "%";
     } else if(scroll > s3) {
         divisor1.style.height = "100%";
-        divisor2.style.height = ((((scroll - s3 + 13)/bottom)*100)) + "%";
+        divisor2.style.height = ((((scroll - s3)/bottom)*100)) + "%";
     }
 }
 
