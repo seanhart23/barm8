@@ -4,12 +4,6 @@ import React from 'react';
 
 export class Section1 extends React.Component {
 
-    imageTransition() {
-        var divisor = document.getElementById("divisor"),
-        slider = document.getElementById("slider");
-	    divisor.style.height = slider.value+"%";
-    }
-
     render() {
         return (
         <div id='section-1'>
@@ -41,21 +35,6 @@ export class Section1 extends React.Component {
                     </div>
                     <div class='col-lg-5'>
                         <Phone src='./image1.png' id='image1'/>
-                        <div class='iphone'>
-                            <div class='notch'></div>
-                            <div id="comparison">
-                                <figure>
-                                    <div id="divisor"></div>
-                                    <div id="divisor1"></div>
-                                    <div id="divisor2"></div>
-                                </figure>
-                                <input type="range" min="0" max="100" defaultValue="0" id="slider" onChange={this.imageTransition} />
-                                <input type="range" min="0" max="100" defaultValue="0" id="slider1" onChange={this.imageTransition} />
-                                <input type="range" min="0" max="100" defaultValue="0" id="slider2" onChange={this.imageTransition} />
-                            </div>
-                            <div class='frame'></div>
-                        </div>
-                       
                     </div>
                 </div>
             </div>
@@ -65,6 +44,22 @@ export class Section1 extends React.Component {
                 <a class="styles__ScrollLink-kd2kl4-0 jwpVBP bullet2"></a>
                 <a class="styles__ScrollLink-kd2kl4-0 jwpVBP bullet3"></a>
                 <a class="styles__ScrollLink-kd2kl4-0 jwpVBP bullet4"></a>
+            </div>
+
+            <div class='half-phone-box'>
+                <div class='frame'>
+                    <div class='notch'></div>
+                    <div class='iphone'>
+                        <div id="comparison">
+                            <figure>
+                                <div id="divisor"></div>
+                                <div id="divisor1"></div>
+                                <div id="divisor2"></div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
 
             </div>
