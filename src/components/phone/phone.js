@@ -2,13 +2,13 @@ import './phone.css';
 
 function Phone(props) { 
     return (
-        <div class='center'>
-            <div class='iphone-mobile'>
-                <div class='notch-mobile'></div>
-                <div class='phone-cover' id={ props.id }>
-                    <img src={ props.src } class={ props.class } />
+        <div className='center'>
+            <div className='iphone-mobile'>
+                <div className='notch-mobile'></div>
+                <div className='phone-cover' id={ props.id }>
+                    <img src={ props.src } className={ props.class } />
                 </div>
-                <div class='frame-mobile'></div>
+                <div className='frame-mobile'></div>
             </div>
         </div>
     )

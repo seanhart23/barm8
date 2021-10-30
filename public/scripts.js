@@ -61,3 +61,4 @@ $(document).scroll(()=>{
   $('.bullet4').toggleClass('active', scroll > (sectionHeight1 + sectionHeight2 + (sectionHeight3/2)));
   setPhone();
 });
+

@@ -1,0 +1,29 @@
+#partner-section-3 .content-container {
+    background: white;
+    border-radius: 40px;
+    padding: 50px;
+    width: 60%;
+}
+
+#partner-section-3 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./happyguy.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+}
+
+#partner-section-3 h4 {
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #252525;
+    margin-top: 25px;
+}
+
+#partner-section-3 h2{
+    font-weight: bold;
+}

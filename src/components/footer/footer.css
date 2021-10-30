@@ -22,6 +22,31 @@
     height: auto;
 }
 
+#footer ul {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 0px;
+}
+
+#footer li {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    padding: 0px 10px;
+    margin-right: 20px;
+}
+
+#footer .divider{
+    width: 0px!important;
+    text-align: center;
+}
+
+#footer ul a {
+    text-decoration: none;
+    color: white;
+}
+
 .store-button-footer {
     border: 1px solid white;
     height: 50px;
@@ -35,6 +60,7 @@
     width: 100%;
     text-align: center;
     display: inline;
+    justify-content: center
 }
 
 @media screen and (max-width: 980px) {
