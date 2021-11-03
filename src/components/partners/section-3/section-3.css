@@ -27,3 +27,21 @@
 #partner-section-3 h2{
     font-weight: bold;
 }
+
+@media screen and (max-width: 980px) {
+
+#partner-section-3 .content-container{
+    width: 90%;
+    margin: auto;
+    padding: 25px 15px;
+}
+
+#partner-section-3 h2{
+    font-size: 24px;
+}
+
+#partner-section-3 h4 {
+    font-size: 22px;
+}
+
+}

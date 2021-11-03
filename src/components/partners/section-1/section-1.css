@@ -47,12 +47,16 @@
 }
 
 #partners-section-1 iframe {
-    width: 130%;
-    height: 100%!important;
+    /* width: 100%;
+    height: 100%!important; */
 }
 
 #partners-section-1 .left-content {
     margin-top: 150px;
+}
+
+#partners-section-1 #main-section {
+    height: 80vh;
 }
 
 #partners-section-1 .right-clip {
@@ -61,6 +65,22 @@
     position: absolute;
     top: -70px;
     bottom: 0;
-    right: -176px;
+    right: -250px;
     width: 707px;
-    max-height: 750px;}
+    max-height: 750px;
+}
+
+@media screen and (max-width: 980px) {
+
+    #partners-section-1 {
+    margin-top: 50px;
+    }
+
+    #partners-section-1 .right-clip {
+        right: -100px;
+    }
+
+    #partners-section-1 .right-clip {
+        width: 100%;
+    }
+}

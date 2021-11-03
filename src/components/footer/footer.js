@@ -7,7 +7,7 @@ export class Footer extends React.Component {
     render() {
         return (
             <div id='footer'>
-                <div className='brand'>Bar M8</div>
+                <div className='brand'><img src="logo.png"></img></div>
                 <h1 className='download-tag'>Download Bar M8 free today</h1>
                 <div className='container'>
                     <div className='store-wrapper store-wrapper-footer'>

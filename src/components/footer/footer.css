@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
-.brand {
+.brand img {
     font-size: 75px;
     font-family: 'Yellowtail', cursive;
     color: #F2A03F;
+    height: 60px;
 }
 
 .download-tag {
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 #footer {
@@ -67,5 +68,9 @@
 .store-button-footer {
     margin: 20px;
     width: 150px;
+}
+
+#footer li {
+    text-align: center;
 }
 }

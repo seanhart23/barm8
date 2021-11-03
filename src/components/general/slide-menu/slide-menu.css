@@ -2,7 +2,6 @@
     display: inline!important;
 }
 
-
 #slide-menu button {
     font-size: 14px!important;
     transform: scale(1);
@@ -69,4 +68,11 @@
     width: 100%;
     margin: auto;
     text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+    #slide-menu button {
+        width: 100%;
+    }
+
 }
