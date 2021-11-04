@@ -45,7 +45,7 @@ const Partners = () => (
 const Main = () => (
     <Switch>
         <Route exact path='/' component={Home}></Route>
-        <Route exact path='/partners' component={Partners}></Route>
+        {/* <Route exact path='/partners' component={Partners}></Route> */}
     </Switch>
 );
 
