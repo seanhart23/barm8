@@ -5,6 +5,7 @@ import React from 'react';
 
 export class Contact extends React.Component {
 
+    
     render() {
         return (
             <div id='contact'>
@@ -13,7 +14,7 @@ export class Contact extends React.Component {
                         <div className='col-lg-6'>
                             <h2>Schedule Your Free Demo</h2>
                             <p className='subtitle'>We’ll reach out within 24 hours to schedule your demo.</p>
-                            <form id='contact-form'>
+                            <form class="" method="post" id='contact-form' action="/contact-form-process.php" enctype="multipart/form-data">
                                 <div className='form-group'>
                                     <input type="text" name="name" className="form-control" placeholder="First and Last Name"/>
                                 </div>
@@ -24,7 +25,7 @@ export class Contact extends React.Component {
                                     <input type="phone" name="phone" className="form-control" placeholder="Phone Number"/>
                                 </div>
                                 <div className='form-group'>
-                                    <input type="text" name="busonessName" className="form-control" placeholder="Business Name"/>
+                                    <input type="text" name="businessName" className="form-control" placeholder="Business Name"/>
                                 </div>
                                 <h3>Which best describes you?</h3>
                                 <div className='form-group-inline'>

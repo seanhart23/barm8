@@ -17,18 +17,11 @@
 }
 
 #partners-section-1 h1 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
-    font-size: 35px;
     color: white;
-    text-shadow: 2px 2px 5px black;
 }
 
-#partners-section-1 h5 {
+#partners-section-1 h4 {
     color: white;
-    font-size: 16px;
-    text-shadow: 2px 2px 5px black;
-    letter-spacing: 1px;
 }
 
 #partners-section-1 img {

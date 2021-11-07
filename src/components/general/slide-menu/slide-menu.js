@@ -41,6 +41,8 @@ export class SlideMenu extends React.Component {
                         className  = "show"
                         video      = ""
                         videoClass = "hidden"
+                        leftColWidth = "col-lg-4"
+                        rightColWidth = "col-lg-8"
                     />
                     <Slide 
                         id         = "slide2"
@@ -51,6 +53,8 @@ export class SlideMenu extends React.Component {
                         image      = ""
                         video      = "section2pt3.mp4"
                         buttonClass= "hidden"
+                        leftColWidth="col-lg-6"
+                        rightColWidth="col-lg-6"
                     />
                     <Slide 
                         id         = "slide3"
@@ -61,6 +65,8 @@ export class SlideMenu extends React.Component {
                         image      = "./section2pt4.png"
                         buttonClass="hidden"
                         videoClass="hidden"
+                        leftColWidth="col-lg-4"
+                        rightColWidth="col-lg-8"
                     />
                     <Slide 
                         id         = "slide4"
@@ -71,26 +77,34 @@ export class SlideMenu extends React.Component {
                         image      = "./section2pt5.jpg"
                         buttonClass="hidden"
                         videoClass="hidden"
+                        leftColWidth="col-lg-4"
+                        rightColWidth="col-lg-8"
                     />
                     <Slide 
                         id         = "slide5"
                         leftTitle  = "Data-backed insights straight to your inbox"
-                        leftText   = "Don’t spend hours pouring over data – we’ll deliver actionable insights, backed by real data, straight to your inbox.  <br>Coming soon."
+                        leftText   = "Don’t spend hours pouring over data – we’ll deliver actionable insights, backed by real data, straight to your inbox."
+                        leftTextBottom = "Coming Soon..."
                         leftButton = "Get a Demo"
                         url        = "/"
                         image      = "./section2pt6.png"
                         buttonClass="hidden"
                         videoClass="hidden"
+                        leftColWidth="col-lg-4"
+                        rightColWidth="col-lg-8"
                     />
                     <Slide 
                         id         = "slide6"
                         leftTitle  = "Reward your most loyal patrons"
-                        leftText   = "Bring your mailing lists and newsletters into the real world with prioritised rewards for the customers that give you the most patronage. Coming soon."
+                        leftText   = "Bring your mailing lists and newsletters into the real world with prioritised rewards for the customers that give you the most patronage."
                         leftButton = "Get a Demo"
+                        leftTextBottom="Coming Soon..."
                         url        = "/"
                         image      = "./section2pt7.jpg"
                         buttonClass="hidden"
                         videoClass="hidden"
+                        leftColWidth="col-lg-4"
+                        rightColWidth="col-lg-8"
                     />
                 </div>  
             </div>    
