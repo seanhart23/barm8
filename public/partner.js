@@ -2,6 +2,11 @@ console.log("Partner JS is working!")
 
 $(document).ready(function(){
     $("#slide1").addClass('show')
+    $("nav").css("background-color", "black");
+    $("nav").css("height", "70px");
+    $("nav").css("box-shadow", "2px 2px 10px 0px black");
+    $(".nav-item a").css("color", "#e4992f");
+    $(".nav-item a").css("font-weight", "bold");
 })
 
 $(document).on('click', '#option1', function() { 

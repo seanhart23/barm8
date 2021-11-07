@@ -1,3 +1,17 @@
+.btn-primary {
+    background: #e4992f;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #e4992f;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+
 .show {
     display: inline!important;
 }
@@ -9,6 +23,7 @@
     background: transparent;
     border: none;
     padding: 10px 25px;
+    
 }
 
 #slide-menu button:focus {
@@ -23,6 +38,9 @@
     width: auto;
 }
 
+#slide-image img {
+    max-width: 325px;
+}
 .slide .left {
     padding: 0px 25px;
 }
@@ -42,13 +60,13 @@
 
 #slide-menu .active {
     background: black!important;
-    color: white!important;
+    color: #e4992f!important;
     border-radius: 30px!important;
     padding: 10px 15px!important;
     font-size: 14px!important;
     border: none;
+    font-weight: bold;
 }
-
 
 
 .slide h3 {
@@ -56,8 +74,13 @@
     margin: 40px 0px 0px 0px;
 }
 
+.slide-image-container {
+    text-align: center;
+}
+
 .slide-image-container img {
-    width: 100%;
+    width: 95%;
+    border-radius: 5px;
 }
 
 .slide .left-text {
@@ -70,9 +93,19 @@
     text-align: center;
 }
 
+video {
+    margin: auto;
+    width: 200px;
+}
 @media screen and (max-width: 980px) {
     #slide-menu button {
         width: 100%;
     }
+
+    .slide-image-container img {
+    width: 95%;
+    border-radius: 5px;
+    margin-top: 25px;
+}
 
 }

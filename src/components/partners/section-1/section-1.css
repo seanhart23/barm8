@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 #partners-section-1 {
-    margin-top: 100px;
-    height: 75vh;
+    margin-top: 60px;
+    height: auto;
+    padding-bottom: 25px;
     width: 100vw;
     position: relative;
+    background-image: url(landingBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #partners-section-1 button {
@@ -12,51 +16,33 @@
     padding: 10px 20px;
 }
 
-#partners-section-1 .clip {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: calc(100% + ((100vw - 100%) / 2));
-    background-color: #00ccbc;
-    -webkit-clip-path: polygon(66% 0, 100% 0, 100% 100%, 39% 100%, 83% 64%);
-    clip-path: polygon(66% 0, 100% 0, 100% 100%, 39% 100%, 83% 64%);
-}
-
-#partners-section-1 .clip2 {
-    position: absolute;
-    z-index: 1;
-    top: 12%;
-    left: 0;
-    right: 0px;
-    bottom: 0;
-    -webkit-clip-path: polygon(0 25%, 88% 0, 100% 104%, 9% 80%);
-    clip-path: polygon(0 25%, 88% 0, 100% 96%, 9% 80%);
-    background: #440063;
-}
-
 #partners-section-1 h1 {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
 }
 
 #partners-section-1 h5 {
-    color: #828585;
+    color: white;
     font-size: 16px;
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 1px;
 }
 
-#partners-section-1 iframe {
-    /* width: 100%;
-    height: 100%!important; */
+#partners-section-1 img {
+    width: 100%;
+    margin-top: 20px;
 }
 
 #partners-section-1 .left-content {
-    margin-top: 150px;
+    margin-top: 100px;
+    padding: 20px;
 }
 
 #partners-section-1 #main-section {
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 #partners-section-1 .right-clip {

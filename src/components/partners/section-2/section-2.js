@@ -10,7 +10,8 @@ export class PSection2 extends React.Component {
         return (
             <div className='container'>
                 <div id='partner-section-2'>
-                    <h2>Point of sale was just the beginning</h2>
+                    <h2>How our Partners use BarM8</h2>
+                    <h4>Create deeper connections with your patrons, your way.</h4>
                     <br />
                     <SlideMenu />
                 </div>    

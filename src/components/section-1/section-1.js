@@ -4,6 +4,13 @@ import React from 'react';
 
 export class Section1 extends React.Component {
 
+    componentDidMount() {
+        const script = document.createElement("script");
+        script.src = "./scripts.js";
+        script.async = true;
+        document.body.appendChild(script);
+    }
+
     render() {
         return (
         <div id='section-1'>
