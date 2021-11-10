@@ -14,7 +14,7 @@ export class Contact extends React.Component {
                         <div className='col-lg-6'>
                             <h2>Schedule Your Free Demo</h2>
                             <p className='subtitle'>We’ll reach out within 24 hours to schedule your demo.</p>
-                            <form class="" method="post" id='contact-form' action="/contact-form-process.php" enctype="multipart/form-data">
+                            <form class="" method="post" id='contact-form' action="https://formspree.io/f/mrgrngqz" enctype="multipart/form-data">
                                 <div className='form-group'>
                                     <input type="text" name="name" className="form-control" placeholder="First and Last Name"/>
                                 </div>
