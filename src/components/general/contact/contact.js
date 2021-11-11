@@ -30,22 +30,22 @@ export class Contact extends React.Component {
                                 <h3>Which best describes you?</h3>
                                 <div className='form-group-inline'>
                                     <div className="form-check form-check-inline">
-                                        <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+                                        <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="I'm interested" />
                                         <label className="form-check-label" for="inlineRadio1">I'm interested</label>
                                     </div>
                                     <div className="form-check form-check-inline">
-                                        <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+                                        <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="I'm already a customer" />
                                         <label className="form-check-label" for="inlineRadio2">I'm already a customer</label>
                                     </div>
                                     <div className="form-check form-check-inline">
-                                        <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" />
+                                        <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="I'm a guest" />
                                         <label className="form-check-label" for="inlineRadio3">I'm a guest</label>
                                     </div>
                                 </div>
                                 <button className='btn' type='submit'>Get a Demo</button>
                             </form>
                             <div class='disc'>
-                                By requesting a demo, you agree to receive automated text messages from Toast. We’ll handle your info according to our <a className='privact'>privacy statement</a>.
+                                By requesting a demo, you agree to receive automated text messages from BarM8. We’ll handle your info according to our <a className='privact'>privacy statement</a>.
                             </div>
                         </div>
                         <div className='col-lg-6'>
